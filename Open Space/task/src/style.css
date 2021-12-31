@@ -1,0 +1,31 @@
+body {
+    background: black;
+}
+.space {
+    background: url("https://stepik.org/media/attachments/lesson/452681/space.png");
+    height: 99%;
+    position: absolute;
+    width: 99.5%;
+}
+
+.planet-area {
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+}
+
+.planet {
+    height: 50vh;
+    left: -5vh;
+    position: absolute;
+    top: 60vh;
+}
+
+.rocket {
+    height: 15vh;
+    left: 20vh;
+    position: absolute;
+    top:75vh;
+    transform: rotate(30deg);
+}
