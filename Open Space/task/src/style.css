@@ -32,14 +32,32 @@ body {
 }
 
 .control-panel {
-    background: darkblue;
-    height: 250px;
+    background-image: repeating-linear-gradient(45deg, yellow, yellow 10px, black 10px, black 20px);
     left: 60vw;
-    padding: 20px 0;
     position: absolute;
     text-align: center;
     top: 40vh;
-    width: 400px;
+}
+
+.control-panel__inner{
+    background: black;
+    margin: 10px;
+    padding: 20px;
+}
+
+input[type=password]{
+    background: darkslategray;
+    border: solid yellow 1px;
+    border-radius: 5px;
+    color: white;
+    margin: 0 20px 0 0;
+    width: 250px;
+}
+
+input[value=OK] {
+    background: yellow;
+    border-radius: 5px;
+    font-weight: bold;
 }
 
 .check-buttons,
@@ -60,6 +78,14 @@ body {
 
 input[type=range] {
     transform: rotate(270deg);
-    left: -40px;
     width: 80px;
+}
+
+input[value=Launch] {
+    background: red;
+    border-radius: 100px / 50px;
+    color: white;
+    font-weight: bold;
+    height: 50px;
+    width: 100px;
 }
