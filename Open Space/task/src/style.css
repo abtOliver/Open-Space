@@ -1,6 +1,7 @@
 body {
     background: black;
 }
+
 .space {
     background: url("https://stepik.org/media/attachments/lesson/452681/space.png");
     height: 99%;
@@ -26,6 +27,39 @@ body {
     height: 15vh;
     left: 20vh;
     position: absolute;
-    top:75vh;
+    top: 75vh;
     transform: rotate(30deg);
+}
+
+.control-panel {
+    background: darkblue;
+    height: 250px;
+    left: 60vw;
+    padding: 20px 0;
+    position: absolute;
+    text-align: center;
+    top: 40vh;
+    width: 400px;
+}
+
+.check-buttons,
+.levers {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    width: 400px;
+}
+
+.check-buttons {
+    height: 50px;
+}
+
+.levers {
+    height: 120px;
+}
+
+input[type=range] {
+    transform: rotate(270deg);
+    left: -40px;
+    width: 80px;
 }
