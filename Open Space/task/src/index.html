@@ -17,21 +17,21 @@
             <input id="password" type="password" placeholder="Enter password to unlock">
             <input type="button" value="OK" onclick="okClicked()">
             <div class="check-buttons">
-                <input type="checkbox" disabled>
-                <input type="checkbox" disabled>
-                <input type="checkbox" disabled>
-                <input type="checkbox" disabled>
-                <input type="checkbox" disabled>
-                <input type="checkbox" disabled>
+                <input type="checkbox" disabled onchange="checkLaunchConditions()">
+                <input type="checkbox" disabled onchange="checkLaunchConditions()">
+                <input type="checkbox" disabled onchange="checkLaunchConditions()">
+                <input type="checkbox" disabled onchange="checkLaunchConditions()">
+                <input type="checkbox" disabled onchange="checkLaunchConditions()">
+                <input type="checkbox" disabled onchange="checkLaunchConditions()">
             </div>
             <div class="levers">
-                <input type="range" disabled>
-                <input type="range" disabled>
-                <input type="range" disabled>
-                <input type="range" disabled>
-                <input type="range" disabled>
+                <input type="range" disabled onchange="checkLaunchConditions()">
+                <input type="range" disabled onchange="checkLaunchConditions()">
+                <input type="range" disabled onchange="checkLaunchConditions()">
+                <input type="range" disabled onchange="checkLaunchConditions()">
+                <input type="range" disabled onchange="checkLaunchConditions()">
             </div>
-            <input type="button" value="Launch" disabled>
+            <input type="button" value="Launch" disabled onclick="liftOff()">
         </div>
     </div>
 </div>
